@@ -24,3 +24,11 @@ Reference
 - more memory
 
 - slower
+
+----------------------------------------------------
+
+int x;            // declaration
+
+x = 123;          // assignment
+
+int x = 123;      // Initialization
