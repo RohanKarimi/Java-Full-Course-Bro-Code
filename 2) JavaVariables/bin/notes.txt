@@ -1,0 +1,26 @@
+Primitive vs Reference data types
+
+
+Primitive:
+- 8 types
+
+- Stores data
+
+- Can only hold 1 Value
+
+- Less memory
+
+- fast
+-----------------------------------------------
+
+Reference
+
+- Unlimited(user defined)
+
+- Stores an address
+
+- Could hold more than 1 Value
+
+- more memory
+
+- slower
