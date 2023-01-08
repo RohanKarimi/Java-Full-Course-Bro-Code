@@ -7,8 +7,9 @@ public class JavaMethods {
         int y = 4;
         int z = add(x, y);
         System.out.println(z);
+        System.out.println(add(x, y));
 
-        
+
         String name = "Bro";
         int age = 21;
 
@@ -21,6 +22,7 @@ public class JavaMethods {
 
         int sum = x + y;
         return sum;
+        // return x + y;
     }
 
     static void hello(String name, int age){
