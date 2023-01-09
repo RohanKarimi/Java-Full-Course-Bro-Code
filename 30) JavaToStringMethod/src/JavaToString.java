@@ -7,6 +7,6 @@ public class JavaToString {
 
         Car car = new Car();
 
-        
+        System.out.println(car);
     }
 }
