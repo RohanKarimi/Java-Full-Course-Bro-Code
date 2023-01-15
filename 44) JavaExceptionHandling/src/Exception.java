@@ -7,10 +7,11 @@ public class Exception {
         
         // exception = an event that occurs during the execution of a program that
         //             disrupts normal flow of instructions
+        Scanner scanner = new Scanner(System.in);
 
         try{
 
-            Scanner scanner = new Scanner(System.in);
+            
 
             System.out.println("Enter a whole number to divide: ");
             int x = scanner.nextInt();
@@ -30,7 +31,9 @@ public class Exception {
         }
         finally{
             // A finally block will always execute whether or not we catch an exception
+            // a good use is to close the scanner
             System.out.println("This will always print");
+            scanner.close();
         }
         
     }
