@@ -31,7 +31,7 @@ public class Exception {
         }
         finally{
             // A finally block will always execute whether or not we catch an exception
-            // a good use is to close the scanner
+            // a good use is to close the scanner, or any files that might be opened
             System.out.println("This will always print");
             scanner.close();
         }
