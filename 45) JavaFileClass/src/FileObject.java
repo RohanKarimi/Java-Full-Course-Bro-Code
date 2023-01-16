@@ -6,13 +6,13 @@ public class FileObject {
         
         // file = an abstract representation of file and directory pathnames
 
-        File file = new File("secret_message.txt");
+        File file = new File("batata");
 
         if(file.exists()){
             System.out.println("That file exists! :O!");
         }
         else{
-            System.out.println("That file doesn´t exist");
+            System.out.println("That file does not exist");
         }
 
     }
